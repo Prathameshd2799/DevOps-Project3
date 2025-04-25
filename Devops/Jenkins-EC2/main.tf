@@ -1,4 +1,4 @@
-module "terraform_instance" {
+module "jenkins_instance" {
   source                 = "../../Modules/EC2/V0"
   ami                    = var.ami
   instance_type          = var.instance_type
