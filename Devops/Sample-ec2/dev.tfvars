@@ -17,7 +17,7 @@ systemctl start httpd
 systemctl enable httpd
 echo "<h1>Hello World from $(hostname -f)</h1>" > /var/www/html/index.html
 EOF
-bucket                 = "pdhalkar-fqts-backup-dev"
+bucket                 = "pdhalkar-fqts-backup-a1b2c3"  # <-- your random bucket name (this will be generated dynamically)
 key                    = "envs/dev/terraform.tfstate"
 region                 = "us-east-1"
 encrypt                = true
